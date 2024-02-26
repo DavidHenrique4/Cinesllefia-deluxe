@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  .flex {
+    display: flex;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  .fondo {
+    background-image: url("thor.webp");
+    background-position: 100%;
+    background-size: cover;
+  }
+  .separador {
+    height: 20px;
+  }
+  
+  #header {
+    background-color: white;
+  }
+  
+  .content {
+    background-color: #f3f2f2;
+    padding: 10px;
+    bottom: 20px;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .container {
+    width: 1100px;
+    margin: 0 auto 0 auto;
+    margin-bottom: 50px;
+  }
+  .fila {
+    display: flex;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  .menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+  }
+  .menu li {
+    list-style: none;
+  }
+  .menu li a {
+    color: black;
+    text-decoration: none;
+  }
+  .menu-top1 {
+    margin-bottom: 20px;
+  }
+  .menu-top1 ul {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+  }
+  .menu-top1 ul li {
+    padding: 0 10px 0 10px;
+  }
+  .menu-top1 ul li:last-child {
+    border-left: 1px solid grey;
+  }
+  .menu-top1 ul li a {
+    color: grey;
+  }
+  .menu-top1 ul li a:hover {
+    text-decoration: none;
+  }
+  .logo_mini {
+    width: 25px;
+  }
+  .logo {
+    width: 400px;
+  }
+  .logo img {
+    width: 100%;
+    padding: 0 50px 0 50px;
+  }
+  .menu-top2 {
+    width: 100%;
+  }
+  .menu-top2 li {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .menu-principal {
+    width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .menu-principal li {
+    width: 120px;
+    margin: 0 5px 0 5px;
+    background-color: #d3d3d3;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  .menu-principal li:hover {
+    background-color: rgb(102, 102, 228);
+  }
+  .menu-principal li:hover a {
+    color: white;
+  }
+  .menu-principal li a {
+    color: rgb(102, 102, 228);
+  }
+  .filtro {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .boton {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-family: "Oswald", sans-serif;
+  }
+  .boton-blanco {
+    background-color: white;
+    text-decoration: none;
+    color: rgb(88, 88, 222); 
+    font-weight: bold;
+  }
+  .boton-blanco:hover {
+    background-color:rgb(102, 102, 228) ;
+    color: white;
+  }
+  .boton-azul {
+    background-color:rgb(102, 102, 228);
+    color: white;
+  }
+  .color-azul {
+    color: rgb(102, 102, 228);
+  }
+  .fichas {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ficha {
+    width: 260px;
+    border: 1px solid #d5d5d5;
+    box-shadow: 0px 1px 20px #d5d5d5;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+  .ficha h3 {
+    margin: 10px 0 10px 0;
+    color: rgb(102, 102, 228);
+  }
+  .ficha-img img {
+    width: 100%;
+  }
+  .estrellas {
+    color: rgb(102, 102, 228);
+  }
+  
+  .ficha-botton {
+    margin-top: 10px;
+  }
+  
+  
+  h3 {
+    color: #004987;
+    margin-bottom: 10px;
+  }
+  
+  .col {
+    width: 100%;
+  }
+  .col ul li {
+    line-height: 2em;
+  }
+  .col ul li a {
+    text-decoration: none;
+    color: #808080;
+  }
+  footer {
+    margin: 0 20px 100px 20px;
+  }
+  footer i,
+  .boton-inferior i {
+    font-size: 50px;
+    color: #1b0a66;
+  }
+  .iconos {
+    display: flex;
+    justify-content: center;
+  }
+  .iconos ul {
+    width: 600px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  td, tr, table {
+    border: 1px solid black;
+  }
+  table{
+    width: 100%;
+  }
+  table td{
+    width: 15%;
+  }
+  table td, th{
+    text-align: center;
+  }
+.Pelititulo{
+  text-align: center;
+  color: #1b0a66;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Tabla{
+  color: #1b0a66;
+}
+ input, select {
+    width: 98%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  

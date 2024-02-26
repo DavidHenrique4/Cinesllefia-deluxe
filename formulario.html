@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cinesa</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="style3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header>
+	<div id="header" class="container_fluid">
+		<div class="container">
+			<div class="fila menu menu-top1">
+				<ul>
+					<li><a href="#"><img class="logo_mini" src="descarga.png" alt=""></a></li>
+					<li><a href="#">Iniciar sesión</a></li>
+					<li><a href="#">Crear cuenta</a></li>
+                    <div class="Tabla"><a href="tabla.html" ><i class="fas fa-table"></i></a></i></div>
+				</ul>
+			</div>
+            <div class="fila top2">
+				<div class="logo"><a href="#"></a><img src="cinesa-logo1.jpg" alt="logo"></a></div>
+				<div class="menu menu-top2">
+					<ul>
+                        <li><a href="#">Cines</a></li>
+						<li><a href="#">Películas</a></li>
+						<li><a href="#">Eventos</a></li>
+						<li><a href="#">Promos</a></li>
+						<li><a href="#">Cinesa Luxe</a></li>
+						<li><a href="#">Cinesacard</a></li>
+						<li><a href="#">Bussines</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<main>
+	<div id="principal" class="container_fluid fondo">
+		<div id="contenido" class="container separador"></div>	
+		<div class="container content">
+		    <h1>Formulario Película <a href="index.html" ><i class="fas fa-user"></i></a></i></h1>
+
+    <form action="procesadatos.php">
+      <div>
+        <label for="titulo">Título:</label>
+        <input name="titulo" id="titulo" type="text" required>
+      </div>
+  
+      <div>
+        <label for="duracion">Duración:</label>
+        <input name="duracion" id="duracion" type="text" required>
+      </div>
+  
+      <div>
+        <label for="director">Director:</label>
+        <input name="director" id="director" type="text" required>
+      </div>
+  
+      <div>
+        <label for="actores">Actores:</label>
+        <input name="actores" id="actores" type="text" required>
+      </div>
+  
+      <div>
+        <label for="fecha_estreno">Fecha de Estreno:</label>
+        <input name="fecha_estreno" id="fecha_estreno" type="date" required>
+      </div>
+
+      <div>
+        <label for="Pais">Pais:</label>
+        <select name="Pais" id="Pais" required>
+          <option value="USA">USA</option>
+          <option value="Japon">Japon</option>
+          <option value="Francia">Francia</option>
+         <option value="España">España</option>
+         <option value="España">Otro</option>
+
+        </select>
+      </div>
+     
+        <div>
+        <label for="genero">Género:</label>
+        <select name="genero" id="genero" required>
+          <option value="accion">Acción</option>
+          <option value="comedia">Comedia</option>
+          <option value="drama">Drama</option>
+          <option value="terror">Terror</option>
+         <option value="aventura">Aventura</option>
+         <option value="aventura">Otro</option>
+        </select>
+      </div>
+      <div>
+        <label for="estrellas"> Estrellas: </label>
+        <input name="Estrellas" id="Estrellas" type="number" min="1" max="5">
+       </div>
+      
+      <div>
+        <label for="sinopsis">Sinopsis:</label>
+        <textarea name="sinopsis" id="sinopsis" cols="30" rows="10" required></textarea>
+      </div>
+
+      <div>
+        <label for="Acepto">He leído y acepto los <a href="https://www.youtube.com/watch?v=4Lsbg4tq9-Q">términos y condiciones</a></label>
+        <input name="condiciones" id="condiciones" type="checkbox" checked required>
+      </div>
+      
+      
+      <button class="boton-morao">Enviar Datos</button>
+
+    </form>
+		</div>
+	</div>
+</main>
+<footer>
+	<div class="container-fluid">
+		<div class="container iconos">
+			<div class="fila menu ">
+				<ul>
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					
+				</ul>			
+			</div>
+		</div>
+		<div class="container">
+			<div class="menu-bottom fila flex">
+				<div class="col">
+					<h3>CINESA</h4>
+					<ul>
+						<li><a href="#">Trabaja con nosotros</a></li>
+						<li><a href="#">Cinesa Business</a></li>
+						<li><a href="#">Mapa del site</a></li>
+						<li><a href="#">Blog Cinesa</a></li>
+						<li><a href="#">CINESACHECKonline</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Salas Premium</h4>
+						<ul>
+							<li><a href="#">Trabaja con nosotros</a></li>
+							<li><a href="#">Cinesa Business</a></li>
+							<li><a href="#">Mapa del site</a></li>
+							<li><a href="#">Blog Cinesa</a></li>
+							<li><a href="#">CINESACHECKonline</a></li>
+						</ul>
+				</div>
+				<div class="col">
+					<h3>AYUDA</h4>
+					<ul>
+						<li><a href="#">Trabaja con nosotros</a></li>
+						<li><a href="#">Cinesa Business</a></li>
+						<li><a href="#">Mapa del site</a></li>
+						<li><a href="#">Blog Cinesa</a></li>
+						<li><a href="#">CINESACHECKonline</a></li>
+					</ul>
+				</div>
+				<div class="col">
+					<h3>Descarga las apps</h4>
+						<ul>
+							<li><a href="#">Trabaja con nosotros</a></li>
+							<li><a href="#">Cinesa Business</a></li>
+							<li><a href="#">Mapa del site</a></li>
+							<li><a href="#">Blog Cinesa</a></li>
+							<li><a href="#">CINESACHECKonline</a></li>
+							<li><a href="#">Mapa del site</a></li>
+							<li><a href="#">Blog Cinesa</a></li>
+							<li><a href="#">CINESACHECKonline</a></li>
+						</ul>
+				</div>
+			</div>
+		</div>	
+	</div>				
+</footer>
+</body>
+</html>
